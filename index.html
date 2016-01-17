@@ -14,87 +14,34 @@
       <header>
         <p align="middle">  <img src="https://farm2.staticflickr.com/1716/24132579170_27ef41132d_b.jpg" alt="some_text" ></p>
 
-<body class="news">
-  <header>
-    <div class="nav">
-      <ul>
-        <li class="home"><a href="#">Home</a></li>
-        <li class="tutorials"><a class="active" href="#">Tutorials</a></li>
-        <li class="about"><a href="#">About</a></li>
-        <li class="news"><a href="#">Newsletter</a></li>
-        <li class="contact"><a href="#">Contact</a></li>
-      </ul>
-    </div>
-  </header>
-</body>
+<title>Bootstrap Case</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-body {
-  margin: 0;
-  padding: 0;
-  background: #ccc;
-}
- 
-.nav ul {
-  list-style: none;
-  background-color: #444;
-  text-align: center;
-  padding: 0;
-  margin: 0;
-}
-.nav li {
-  font-family: 'Oswald', sans-serif;
-  font-size: 1.2em;
-  line-height: 40px;
-  height: 40px;
-  border-bottom: 1px solid #888;
-}
- 
-.nav a {
-  text-decoration: none;
-  color: #fff;
-  display: block;
-  transition: .3s background-color;
-}
- 
-.nav a:hover {
-  background-color: #005f5f;
-}
- 
-.nav a.active {
-  background-color: #fff;
-  color: #444;
-  cursor: default;
-}
- 
-@media screen and (min-width: 600px) {
-  .nav li {
-    width: 120px;
-    border-bottom: none;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
- 
-  /* Option 1 - Display Inline */
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
-}
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Page 1</a></li>
+      <li><a href="#">Page 2</a></li>
+      <li><a href="#">Page 3</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+  <h3>Inverted Navbar</h3>
+  <p>An inverted navbar is black instead of gray.</p>
+</div>
+
 
         <p class="view"><a href="https://github.com/ramossf/TestSite2">View the Project on GitHub <small>ramossf/TestSite2</small></a></p>
 
