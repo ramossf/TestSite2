@@ -12,37 +12,30 @@
     <div class="wrapper">
       <header>
         <p align="middle">  <img src="https://farm2.staticflickr.com/1716/24132579170_27ef41132d_b.jpg" alt="some_text" ></p>
-        
-        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
       <a class="navbar-brand" href="#">WebSiteName</a>
     </div>
     <ul class="nav navbar-nav">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="#">Page 1-1</a></li>
+          <li><a href="#">Page 1-2</a></li>
+          <li><a href="#">Page 1-3</a></li>
+        </ul>
+      </li>
       <li><a href="#">Page 2</a></li>
       <li><a href="#">Page 3</a></li>
     </ul>
   </div>
 </nav>
-
+  
 <div class="container">
-  <h3>Fixed Navbar</h3>
-  <div class="row">
-    <div class="col-md-4">
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>    
-    </div>
-    <div class="col-md-4"> 
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-    </div>
-    <div class="col-md-4"> 
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p>
-      <p>A fixed navigation bar stays visible in a fixed position (top or bottom) independent of the page scroll.</p> 
-    </div>
-  </div>
+  <h3>Navbar With Dropdown</h3>
+  <p>This example adds a dropdown menu for the "Page 1" button in the navigation bar.</p>
 </div>
         <p class="view"><a href="https://github.com/ramossf/TestSite2">View the Project on GitHub <small>ramossf/TestSite2</small></a></p>
 
